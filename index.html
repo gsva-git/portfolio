@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="style.css">
+
+      <title>Responsive portfolio website - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+                <nav class="nav container">
+      <a href="#" class="nav__logo"></a>
+
+      <div class="nav__menu" id="nav-menu">
+         <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#skills" class="nav__link">Skills</a></li>
+            <li><a href="#projects" class="nav__link">Projects</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+         </ul>
+
+         <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+         </div>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+         <i class="ri-menu-line"></i>
+      </div>
+   </nav>
+</header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+      <div class="home__img">
+         <img src="GSVA.webp" alt="GSVA Profile">
+      </div>
+
+      <div class="home__data">
+         <h1 class="home__name">Gregorious Varghese</h1>
+         <h3 class="home__profession">Data Analyst & Creative Designer</h3>
+
+         <a href="#contact" class="button">
+            Hire Me <i class="ri-arrow-right-line"></i>
+         </a>
+      </div>
+
+   </div>
+</section>
+
+         <!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+   <div class="about__container container">
+
+      <h2 class="section__title">About Me</h2>
+
+      <p class="about__description">
+         I specialize in Power BI dashboards, Python analytics,
+         SQL data management and creative visual communication.
+      </p>
+
+      <div class="about__stats">
+         <div class="about__box">
+            <h3>08+</h3>
+            <span>Projects</span>
+         </div>
+
+         <div class="about__box">
+            <h3>3+</h3>
+            <span>Years Experience</span>
+         </div>
+      </div>
+
+   </div>
+</section>
+
+         <!--==================== SKILLS ====================-->
+         <section class="skills section" id="skills">
+   <div class="skills__container container grid">
+
+      <div>
+         <h2 class="section__title">Skills</h2>
+
+      <!-- Power BI -->
+      <div class="skill">
+         <div class="skill__info">
+            <span>Power BI</span>
+            <span>90%</span>
+         </div>
+         <div class="skill__bar">
+            <div class="skill__progress powerbi"></div>
+         </div>
+      </div>
+
+      <!-- Python -->
+      <div class="skill">
+         <div class="skill__info">
+            <span>Python</span>
+            <span>75%</span>
+         </div>
+         <div class="skill__bar">
+            <div class="skill__progress python"></div>
+         </div>
+      </div>
+
+      <!-- MySQL -->
+      <div class="skill">
+         <div class="skill__info">
+            <span>MySQL</span>
+            <span>70%</span>
+         </div>
+         <div class="skill__bar">
+            <div class="skill__progress mysql"></div>
+         </div>
+      </div>
+
+      <!-- Adobe -->
+      <div class="skill">
+         <div class="skill__info">
+            <span>Adobe Suite</span>
+            <span>85%</span>
+         </div>
+         <div class="skill__bar">
+            <div class="skill__progress adobe"></div>
+         </div>
+      </div>
+      </div>
+   </div>
+</section>
+
+         <!--==================== DASHBOARD ====================-->
+<section class="dashboard section" id="dashboards">
+
+   <h2 class="section__title">Dashboard Highlights</h2>
+
+   <div class="dashboard__container container grid">
+
+      <!-- Dashboard 1 -->
+      <div class="dashboard__card">
+         <img src="dashboard 1.png" alt="Sales Dashboard">
+         <h3>Sales Dashboard</h3>
+      </div>
+
+      <!-- Dashboard 2 -->
+      <div class="dashboard__card">
+         <img src="dashboard 2 global.png" alt="Global Dashboard">
+         <h3>Global Dashboard</h3>
+      </div>
+
+   </div>
+
+</section>
+
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+   <h2 class="section__title">Projects</h2>
+
+   <div class="projects__container container grid">
+
+      <div class="projects__card">
+         <video class="projects__video" autoplay controls loop>
+            <source src="/Car Sales Dashboard - GSVA.mp4" type="video/mp4">
+         </video>
+
+         <div class="projects__modal">
+            <span class="projects__subtitle">Power BI</span>
+            <h3 class="projects__title">Car Sales Dashboard</h3>
+         </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="projects__card">
+         <video class="projects__video" controls autoplay loop>
+            <source src="/Hospital & Patient Management Dashboard - GSVA.mp4" type="video/mp4">
+         </video>
+
+         <div class="projects__modal">
+            <span class="projects__subtitle">Analytics</span>
+            <h3 class="projects__title">Hospital Management Dashboard</h3>
+         </div>
+      </div>
+
+   </div>
+</section>
+
+         <!--==================== CONTACT ====================-->
+<div class="contact__container container grid">
+
+   <!-- Contact Info -->
+   <div class="contact__info">
+
+      <div class="contact__card">
+         <div class="contact__card-header">
+            <i class="ri-mail-line"></i>
+            <h3>Email</h3>
+         </div>
+         <span>gsvaofficial@gmail.com</span>
+      </div>
+
+      <div class="contact__card">
+         <div class="contact__card-header">
+            <i class="ri-phone-line"></i>
+            <h3>Phone</h3>
+         </div>
+         <span>+91 808 606 1118</span>
+      </div>
+
+      <div class="contact__card">
+         <div class="contact__card-header">
+            <i class="ri-linkedin-box-line"></i>
+            <h3>LinkedIn</h3>
+         </div>
+         <a href="#">View Profile</a>
+      </div>
+
+   </div>
+
+   <!-- Contact Form -->
+   <form class="contact__form">
+
+      <input type="text" placeholder="Your Name" class="contact__form-input">
+      <input type="email" placeholder="Your Email" class="contact__form-input">
+      <textarea placeholder="Your Message" class="contact__form-input"></textarea>
+
+      <button class="button">Send Message</button>
+
+   </form>
+
+</div>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+<footer class="footer">
+
+   <div class="footer__container container">
+
+      <div class="footer__social">
+
+         <a href="https://linkedin.com/in/gsva" target="_blank" class="footer__social-link">
+            <i class="ri-linkedin-box-line"></i>
+         </a>
+
+         <a href="https://github.com/gsva-git" target="_blank" class="footer__social-link">
+            <i class="ri-github-line"></i>
+         </a>
+
+         <a href="mailto:gsvaofficial@gmail.com" class="footer__social-link">
+            <i class="ri-mail-line"></i>
+         </a>
+
+         <a href="https://instagram.com/gsva.ig" target="_blank" class="footer__social-link">
+            <i class="ri-instagram-line"></i>
+         </a>
+
+      </div>
+
+      <span class="footer__copy">
+         © 2026 GSVA. All rights reserved.
+      </span>
+
+   </div>
+
+</footer>
+
+      <!--========== SCROLL UP ==========-->
+      
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+
+      <!--=============== EMAIL JS ===============-->
+      
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
